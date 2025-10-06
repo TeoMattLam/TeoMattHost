@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RandoClasser - Matteo La Mantia</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <button id="back" onclick="location.href = '../index.html'">Go back</button>
+        <h1>RandoClasser</h1>
+        <button id="donate" onclick="alert('Not yet')">Donate 🎁</button>
+    </header>
+    <div id="downloads">
+        <button class="download" onclick="location.href = 'https&#58//drive.google.com/uc?export=download&id=1w4sMhTUDuAaxrsTkD5pbDnlE75xNbjs_'">
+            <i class="fa-brands fa-windows"></i>
+            .zip (archive)
+        </button>
+    </div>
+    <p>
+        RandoClasser is a random seating plan generator for school classes. It is made in Kotlin and it is temporarily only available for Windows.
+        It features:
+    </p>
+    <ul>
+        <li>Custom desk placement</li>
+        <li>Custom student list</li>
+        <li>Grouping students that must or must not sit together</li>
+        <li>Placing students in a specific row</li>
+        <li>Error logging</li>
+    </ul>
+    <h1 id="how-to-use">How To Use</h1>
+    <p>
+        Start by opening the tab labeled "Rows", where you can add rows by clicking the leftmost button in the bottom toolbar.<br>
+        You start counting rows from the front of the class (marked by the teacher's desk) to the back. You can add a new desk with a custom number of seats.<br>
+        To change the direction the class is facing, you have to change the teacher's desk position from the toolbar.<br>
+        Next, go to the "Students" tab, where you can add students by clicking the second button in the toolbar. By doing that you create a student card.
+        Each card has five rectangles. The first one is the student's name, which can't be changed. The second one is the row where the student must seat.
+        Then you have the student's deskmate. Finally, you can select the rows and the students the student mustn't sit in or with.
+        You can leave everything blank if you don't need any of these conditions.<br>
+        The only thing left to do is press "Start". If you want to change something you can simply press on someone's name and then someone else's to swap them.<br>
+        Errors might pop up in the "Log" panel. This might happen if you put too many conditions that can't be satisfied.
+        For example, if you have 5 students and you put that 3 of them must sit in the first row, which only has 2 seats. <br>
+        Thanks for choosing my software.
+    </p>
+    <footer>
+        <div>
+            <i class="fa-brands fa-github"></i><a href="https://github.com/TeoMattLam">TeoMattLam</a><br>
+        </div>
+    </footer>
+</body>
+</html>

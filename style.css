@@ -75,6 +75,19 @@ a {
     color: white;
 }
 
+#back {
+    position: absolute;
+    top: 35px;
+    left: 20px;
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    padding: 5px 7px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
 #donate {
     position: absolute;
     top: 35px;
@@ -88,19 +101,52 @@ a {
     font-size: 16px;
 }
 
-.download {
+.visit {
     background-color: #f4f4f4;
     border-width: 1px;
     border-radius: 5px;
-    width: 70px;
-    height: 40px;
+    width: 100px;
+    height: 30px;
     cursor: pointer;
     margin: 0px;
 }
 
+#downloads {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.download {
+    background-color: #4CAF50;
+    border-width: 1px;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    margin: 0px 5px;
+    color: white;
+}
+
 #description {
-    bottom: 110px;
-    width: 100%;
     text-align: center;
+}
+
+p {
+    bottom: 110px;
     font-size: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+ul {
+    font-size: 20px;
+    margin-left: 70px;
+    margin-right: 50px;
+}
+
+#how-to-use {
+    font-size: 50px;
+    text-align: center;
 }
