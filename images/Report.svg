@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
-  <rect x="175.604" y="70.7" width="237.457" height="174.522" style="stroke: rgb(255, 0, 0); paint-order: fill; fill: rgb(255, 0, 0); transform-box: fill-box; transform-origin: 50% 50%;" rx="19.108" ry="19.108" transform="matrix(0.882947, 0.469472, -0.469472, 0.882947, -36.923482, -11.395297)"/>
+  <rect x="175.604" y="70.7" width="237.457" height="174.522" style="stroke: rgb(255, 10, 10); paint-order: fill; fill: rgb(255, 0, 0); transform-box: fill-box; transform-origin: 50% 50%;" rx="19.108" ry="19.108" transform="matrix(0.882947, 0.469472, -0.469472, 0.882947, -36.923482, -11.395297)"/>
   <rect x="515.609" y="358.569" width="361.942" height="32.515" style="stroke: rgb(160, 92, 53); fill: rgb(160, 92, 53); transform-box: fill-box; transform-origin: 50% 50%;" transform="matrix(-0.48481, 0.874619, -0.874619, -0.48481, -370.834108, -86.600166)" rx="5" ry="5"/>
 </svg>
