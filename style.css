@@ -57,6 +57,10 @@ footer {
     height: 100px;
 }
 
+main {
+    padding-bottom: 120px;
+}
+
 footer div {
     height: 100px;
     display: inline-block;
@@ -100,6 +104,29 @@ a {
     cursor: pointer;
     font-size: 16px;
 }
+
+@media (max-width: 500px) {
+    header {
+        padding: 10px 0;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px; /* distanza tra i due pulsanti */
+        flex-wrap: wrap;
+    }
+
+    #back {
+        display: none;
+    }
+
+    #donate {
+        position: static;
+        font-size: 16px;
+        padding: 7px 10px;
+    }
+}
+
 
 .visit {
     background-color: #f4f4f4;
