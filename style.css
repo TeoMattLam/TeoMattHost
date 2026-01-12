@@ -138,13 +138,6 @@ a {
     margin: 0px;
 }
 
-#downloads {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 10px;
-}
-
 .download {
     background-color: #4CAF50;
     border-width: 1px;
@@ -154,6 +147,22 @@ a {
     cursor: pointer;
     margin: 0px 5px;
     color: white;
+}
+
+.version {
+    text-align: center;
+    display: inline;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.version-number {
+    font-size: 14px;
+    color: #666;
+    margin-left: 5px;
+    width: 50px;
 }
 
 #description {
